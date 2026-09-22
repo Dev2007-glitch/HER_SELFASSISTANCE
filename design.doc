@@ -1,0 +1,238 @@
+# BECOMING — UI/UX DESIGN DOCUMENT
+
+> **Brand Concept:** Senti CRM Branding-inspired Luxury Editorial × Soft Feminine Wellness × Modern Productivity & Personal Growth Platform.
+> **Tagline:** *Become who you want to be. One ordinary day at a time.*
+
+---
+
+## 1. Design Vision
+
+**BECOMING** should feel like:
+**A luxury editorial magazine + personal operating system + modern wellness app.**
+
+The interface should make users feel:
+> “I want to live this life.”
+
+rather than:
+> “I have another productivity app I need to maintain.”
+
+---
+
+## 2. Visual Direction
+
+| Element | Direction |
+| :--- | :--- |
+| **Overall** | Premium, luxury editorial, minimal, architectural |
+| **Mood** | Calm, confident, aspirational, warm, grounded |
+| **Layout** | Asymmetrical editorial grids, modular panels, layered floating cards |
+| **Typography** | Dramatic large serif headlines + clean refined geometric sans-serif |
+| **Cards** | 20–28px soft rounded cards, layered compositions, subtle border lines |
+| **Photography** | Candid, cinematic lifestyle, quiet morning rituals, coffee, books, golden hour |
+| **Animation** | Slow, subtle, 300–500ms smooth cubic-bezier transitions, delicate hover lifts |
+| **UI Density** | Spacious, intentional whitespace, zero cluttered SaaS feeling |
+
+---
+
+## 3. Color System
+
+Inspired by the Senti design system, softened into a warm, feminine, high-fashion identity:
+
+### Primary
+* **Warm Ivory:** `#F7F3ED` (Canvas background)
+* **Deep Espresso:** `#211A18` (Primary typography & strong accents)
+* **Canvas Cream:** `#FAF4F4` / `#FDFBF7`
+
+### Secondary
+* **Dusty Rose:** `#C99A9A` / `#9F5154`
+* **Muted Sage:** `#AAB5A1`
+* **Warm Peach:** `#E8BFA9`
+* **Soft Cocoa:** `#8C7065`
+* **Warm Stone / Sand:** `#BBA395`
+
+### Accent
+* **Deep Burgundy:** `#5B1B1D` (Key action triggers, active pill states, editorial badges)
+* **Velvet Noir:** `#0C0302`
+
+---
+
+## 4. Typography
+
+### Headings
+* **Font Family:** `Playfair Display`, `Cormorant Garamond`, `DM Serif Display`
+* **Style:** High-contrast editorial serif, generous line height, italic accents.
+* **Example:**
+  > *Become the woman you're building.*
+
+### Body & Interface
+* **Font Family:** `Plus Jakarta Sans`, `Inter`, `Manrope`, `Outfit`
+* **Style:** Crisp, legible, modern geometric sans-serif with 500/600 weight metrics.
+
+This creates the signature contrast: **High-Fashion Editorial × Intuitive Technology**.
+
+---
+
+## 5. Homepage / Landing Flow
+
+The homepage immediately communicates the philosophy with cinematic impact.
+
+### Hero
+* **Large Typography:**
+  # BECOME WHO YOU WANT TO BE.
+* **Supporting Text:**
+  *Build your habits. Keep your promises. Create a life you actually love.*
+* **Primary Action:** `[ Start Becoming ]`
+* **Right Visual Composition:**
+  Large cinematic lifestyle imagery with overlapping floating cards:
+  * Floating Card 1: `78% Consistency · 23 Days Showed Up`
+  * Floating Card 2: `Today's Identity: "I keep promises to myself."`
+
+---
+
+## 6. Dashboard (My Day)
+
+An editorial modular layout inspired by luxury brand books:
+
+### Header
+> **Good morning, Anna.**
+> *Today is another chance to become her.*
+
+### Editorial Grid Composition
+* **Panel 1 — Identity Callout:**
+  > **YOUR IDENTITY**
+  > *“I am someone who keeps promises to herself.”*
+* **Panel 2 — Today's Core Focus:**
+  * ○ Study for 2 hours (Machine Learning)
+  * ○ 30-minute Movement session
+  * ○ Evening 5-minute Journal
+* **Panel 3 — Life Balance Metrics:**
+  * **MIND:** `72%`
+  * **BODY:** `84%`
+  * **FUTURE:** `61%`
+
+---
+
+## 7. “BECOME” Page (Identity Architecture)
+
+The philosophical core of the platform:
+* **Large Headline:** *Who are you becoming?*
+* **Identity Statement Cards:**
+  * **DISCIPLINED:** *“I do what I said I would do.”*
+  * **CONFIDENT:** *“I trust myself to handle difficult things.”*
+  * **HEALTHY:** *“I take care of my body with nourishment and sleep.”*
+  * **CURIOUS:** *“I keep learning and exploring.”*
+* **Identity ➔ Behavior Mapping:**
+  ```text
+  CONFIDENT
+     ↓ Speak up in class & meetings
+     ↓ Exercise 4x weekly
+     ↓ Try new cultural experiences
+     ↓ Keep daily promises to herself
+  ```
+
+---
+
+## 8. Goals Page (Life Stories, Not Jira Tickets)
+
+Visual story cards connecting 90-day ambitions to today's physical action:
+
+* **Goal Card Example:**
+  * **Title:** BECOME A BETTER STUDENT & MASTER TECH
+  * **Progress:** `68% Complete`
+  * **Story Milestones:** Study consistently · Improve grades · Read more · Build focus
+  * **Hierarchy:**
+    * `90-DAY VISION:` Master CS fundamentals & build confidence
+    * `MONTHLY TARGET:` 30 hours of deep study
+    * `WEEKLY TARGET:` 8 hours focused study weekly
+    * `TODAY'S ACTION:` Complete 2-hour assignment
+
+---
+
+## 9. Routine Page (Timelines & Grace)
+
+Clean, spacious timeline layout with thin lines and subtle icons:
+
+### Morning Rhythm (Dawn)
+* `07:00` — Gentle Wake up
+* `07:10` — Water + Skincare ritual
+* `07:30` — Morning walk in fresh air
+* `08:00` — Nourishing protein breakfast
+* `08:30` — Set Today's Top 3 & begin focus
+
+### Evening Rhythm (Dusk)
+* `18:00` — Movement & workout
+* `19:00` — Peaceful dinner
+* `20:00` — Deep study session
+* `21:30` — 10 pages reading & herbal tea
+* `22:30` — Journal reflection & wind-down
+
+---
+
+## 10. “LIVE” Page (Pinterest × Editorial Lifestyle Magazine)
+
+The platform's key differentiator:
+* **Headline:** *Don't forget to live.*
+* **Curated Experience Cards with Imagery:**
+  * ☕ *Try a new aesthetic café*
+  * 🌅 *Watch the golden hour sunset*
+  * 🎨 *Make something with your hands*
+  * 👯 *Cozy dinner with close friends*
+  * 🎬 *Late night movie & candles*
+  * 🌿 *Take yourself on a solo museum date*
+
+---
+
+## 11. Progress Page (Emotional Narrative)
+
+* **Hero Metrics:**
+  * `23` Days Showed Up
+  * `78%` Overall Consistency
+  * `12` Goals Progressed
+  * `4` Habits Maintained
+* **30-Day Presence Calendar:** Non-punitive heatmap (*Completed, Partial/Showed Up, Rest & Restore, Missed*).
+* **The Narrative Payoff:**
+  * **30 Days Ago:** *“You were struggling to stay consistent and overwhelmed by phone scrolling.”*
+  * **Today:** *“You're building a routine you can actually maintain and keeping promises to yourself.”*
+  * **Next Chapter:** *“Deepen emotional calmness and unshakeable self-trust.”*
+
+---
+
+## 12. Reset Mode
+
+Soft, restorative, full-screen calm modal:
+> **“You don't have to start over. You just need one good day.”**
+
+### Today's Reset:
+* ☐ Make your bed & reset desk
+* ☐ Drink 2L water throughout the day
+* ☐ 20-minute focus session on ONE thing
+* ☐ 15-minute walk outside
+* ☐ Sleep on time with zero guilt
+* `[ I'm Showing Up Again ]`
+
+---
+
+## 13. Navigation & Actions
+
+* **Desktop:** `BECOMING` · Home · Become · Goals · Routine · Grow · Live · Journal · Profile · `[ + Quick Action ]` · `[ Reset Mode ]`
+* **Mobile:** Bottom bar `Home` · `Goals` · `[ + ]` · `Grow` · `Me`
+* **The `+` Quick Action Modal:** One-tap logging for Habit, Goal Action, Journal Reflection, or Life Experience.
+
+---
+
+## 14. Photography & Cinematography Direction
+
+* Unsplash curated editorial imagery: Candid morning light, iced matcha, vintage books, serene minimal architecture, flowers, solo city walks, quiet studying, sunset skies.
+* No generic corporate stock photography.
+
+---
+
+## 15. Core Design Principle
+
+> **Don't design a productivity app. Design a life.**
+>
+> 1. *Who am I becoming?*
+> 2. *What matters to me?*
+> 3. *What should I do today?*
+> 4. *Am I showing up?*
+> 5. *Am I growing?*
+> 6. *Am I actually living?*

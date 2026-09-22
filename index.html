@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="noir">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HER — Personal Growth & Life Design Platform</title>
+  <meta name="description"
+    content="Become who you want to be. One ordinary day at a time. Luxury editorial personal operating system & wellness platform.">
+
+  <!-- Google Fonts: Playfair Display, Cormorant Garamond, DM Serif Display, Plus Jakarta Sans, Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="/src/style.css">
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
+</head>
+
+<body>
+  <!-- Global Ambient 3D NYC Brooklyn Bridge Cinematic Background -->
+  <div class="global-nyc-cinematic-bg" id="global-nyc-bg">
+    <div class="nyc-ambient-skyline"></div>
+    <div class="nyc-ambient-sunset-mesh"></div>
+    <div class="nyc-ambient-river-glow"></div>
+  </div>
+
+  <div id="app" class="app-container">
+    <!-- Navigation Desktop / Tablet -->
+    <header class="navbar" id="main-nav">
+      <div class="nav-left">
+        <a href="#home" class="brand-logo" id="logo-btn">
+          <span class="logo-text">H<span style="color: var(--color-amber);">E</span>R<span style="font-size: 0.75rem; vertical-align: top; color: var(--color-rose); font-family: var(--font-sans); margin-left: 2px;">™</span></span>
+          <span class="logo-subtext">life operating system</span>
+        </a>
+      </div>
+
+      <nav class="nav-links" id="desktop-nav-links">
+        <button class="nav-btn active" data-view="home" id="nav-home">
+          <span class="nav-title">Home</span>
+        </button>
+        <button class="nav-btn" data-view="become" id="nav-become">
+          <span class="nav-title">Become</span>
+        </button>
+        <button class="nav-btn" data-view="goals" id="nav-goals">
+          <span class="nav-title">Goals</span>
+        </button>
+        <button class="nav-btn" data-view="routine" id="nav-routine">
+          <span class="nav-title">Routine</span>
+        </button>
+        <button class="nav-btn" data-view="grow" id="nav-grow">
+          <span class="nav-title">Grow</span>
+        </button>
+        <button class="nav-btn" data-view="live" id="nav-live">
+          <span class="nav-title">Live</span>
+        </button>
+        <button class="nav-btn" data-view="journal" id="nav-journal">
+          <span class="nav-title">Diary</span>
+        </button>
+      </nav>
+
+      <div class="nav-right">
+        <!-- NYC Atmosphere & Live Weather -->
+        <button class="atmosphere-badge-btn" id="open-atmosphere-modal-btn" title="NYC Atmosphere & Focus Soundscape">
+          <span class="atmosphere-dot"></span>
+          <span id="nyc-live-badge-text">✦ NYC Skyline</span>
+          <span class="atmosphere-temp" id="nyc-realtime-clock">7:45 PM NYC</span>
+        </button>
+
+        <!-- Focus Soundscape Equalizer -->
+        <button class="icon-btn soundscape-toggle-btn" id="soundscape-toggle-btn" title="NYC Focus Soundscape (Rain / Loft / Wind)">
+          <div class="audio-wave-bars">
+            <span></span><span></span><span></span>
+          </div>
+        </button>
+
+        <!-- Quick Action Trigger (+) -->
+        <button class="action-pill-btn quick-add-btn" id="open-quick-add-btn" title="Quick Add">
+          <span>+ Log</span>
+        </button>
+        <!-- Mark-LIII Holographic Voice Assistant Trigger -->
+        <button class="action-pill-btn voice-btn" id="open-voice-modal-btn" title="Mark-LIII Voice Assistant (Voice recognition & Holographic Orb)">
+          <span class="voice-sparkle">🎙️</span>
+          <span>Voice</span>
+        </button>
+
+        <!-- AI Coach Quick Trigger -->
+        <button class="action-pill-btn ai-btn" id="open-ai-modal-btn" title="AI Life Assistant">
+          <span class="ai-sparkle">✨</span>
+          <span>AI Coach</span>
+        </button>
+        <!-- Reset Mode Trigger -->
+        <button class="action-pill-btn reset-btn" id="open-reset-modal-btn"
+          title="Feeling overwhelmed? Take a 1-day Reset">
+          <span>Reset Mode</span>
+        </button>
+        <!-- Profile / Blueprint Quick Access -->
+        <button class="nav-profile-btn" data-view="profile" id="nav-profile" title="My Profile & Settings">
+          <div class="avatar-circle" id="nav-avatar-initials">A</div>
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Dynamic Content Container -->
+    <main class="main-content" id="view-container" tabindex="-1">
+      <!-- Views dynamically injected -->
+    </main>
+
+    <!-- Mobile Bottom Navigation (Home | Goals | + | Grow | Me) -->
+    <nav class="mobile-bottom-nav" id="mobile-nav">
+      <button class="mob-nav-btn active" data-view="home" id="mob-home">
+        <span class="mob-icon">✧</span>
+        <span class="mob-label">Home</span>
+      </button>
+      <button class="mob-nav-btn" data-view="goals" id="mob-goals">
+        <span class="mob-icon">🎯</span>
+        <span class="mob-label">Goals</span>
+      </button>
+      <button class="mob-nav-btn mob-plus-btn" id="mob-quick-add" title="Quick Add">
+        <span class="mob-plus-circle">+</span>
+      </button>
+      <button class="mob-nav-btn" data-view="grow" id="mob-grow">
+        <span class="mob-icon">🌱</span>
+        <span class="mob-label">Grow</span>
+      </button>
+      <button class="mob-nav-btn" data-view="profile" id="mob-profile">
+        <span class="mob-icon">👤</span>
+        <span class="mob-label">Me</span>
+      </button>
+    </nav>
+
+    <!-- Global Modals Container -->
+    <div id="modal-container"></div>
+
+    <!-- Global Toast / Feedback Notifications -->
+    <div id="toast-container" class="toast-container" aria-live="polite"></div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>

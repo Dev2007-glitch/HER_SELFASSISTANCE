@@ -1,0 +1,2059 @@
+# HER — Personal Growth & Life Design Platform
+
+## Product Requirements Document
+
+**Product name:** HER
+**Working tagline:** *Become her, one ordinary day at a time.*
+**Product category:** Personal growth / habit building / life planning / productivity / wellness
+**Platform:** Responsive web application, with future mobile app potential
+**Primary audience:** Young adults, especially college students and early-career users
+**Product philosophy:** Discipline without burnout. Growth without perfection. Productivity without forgetting to live.
+
+---
+
+# 1. Executive Summary
+
+HER is a personalized life-design platform that helps users become the person they want to be through **identity-based goals, consistent habits, daily routines, reflection, and intentional living**.
+
+The product is built around one central idea:
+
+> **You don't become the person you want to be overnight. You become them through what you repeatedly do.**
+
+Unlike conventional productivity and habit-tracking apps, HER does not focus exclusively on task completion or streaks.
+
+HER connects:
+
+**Who I want to become → What I want to achieve → What I need to do → What I repeatedly do → Who I am becoming**
+
+The platform should encourage users to develop discipline while maintaining time for friendships, hobbies, rest, exploration, and enjoyment.
+
+---
+
+# 2. Problem Statement
+
+Many people know the person they want to become but struggle to translate that vision into consistent daily behavior.
+
+Users commonly experience:
+
+* Setting unrealistic goals
+* Starting routines enthusiastically and abandoning them
+* Relying on motivation instead of systems
+* Feeling guilty after missing habits
+* Using multiple disconnected apps
+* Tracking tasks without understanding personal growth
+* Becoming overly focused on productivity
+* Neglecting hobbies, relationships, rest, and enjoyment
+* Not knowing what action to take today toward a long-term goal
+* Losing motivation because progress feels invisible
+
+Existing habit trackers often reduce growth to:
+
+> **Complete habit → maintain streak → don't break streak**
+
+HER instead focuses on:
+
+> **Build identity → create realistic systems → show up consistently → reflect → adapt → grow**
+
+---
+
+# 3. Product Vision
+
+Create the most emotionally engaging personal-growth platform where users can design their ideal life and gradually turn it into reality.
+
+HER should feel like:
+
+* A personal life coach
+* A beautiful daily planner
+* A habit system
+* A goal-management platform
+* A private journal
+* A progress dashboard
+* A personal vision board
+
+But it should not feel overwhelming.
+
+The user should open HER and immediately understand:
+
+> **Who am I becoming?**
+>
+> **What matters today?**
+>
+> **What should I do next?**
+
+---
+
+# 4. Product Mission
+
+Help people build a life they are proud of through:
+
+### Identity
+
+Understanding who they want to become.
+
+### Discipline
+
+Doing important things even when motivation disappears.
+
+### Consistency
+
+Focusing on repeated effort rather than perfection.
+
+### Reflection
+
+Learning from each week instead of judging it.
+
+### Balance
+
+Making room for health, relationships, hobbies, rest, and fun.
+
+---
+
+# 5. Target Users
+
+## Primary Persona: The Ambitious Student
+
+**Age:** 17–25
+
+Typical characteristics:
+
+* College/university student
+* Wants academic success
+* Wants better health
+* Wants to improve appearance and confidence
+* Wants better routines
+* Wants to read more
+* Wants to exercise
+* Wants to become financially responsible
+* Wants to develop skills
+* Wants a social life
+* Consumes self-improvement content
+* Frequently starts routines but struggles with consistency
+
+### Core problem
+
+> “I know what I want my life to look like, but I don't know how to consistently become that person.”
+
+---
+
+## Secondary Persona: Early-Career Young Adult
+
+**Age:** 22–30
+
+Goals include:
+
+* Career development
+* Fitness
+* Financial discipline
+* Better sleep
+* Personal development
+* Social life
+* Hobbies
+* Mental clarity
+* Time management
+
+---
+
+# 6. Core Product Principle
+
+## Identity before habits.
+
+Instead of beginning with:
+
+> “Choose five habits.”
+
+HER begins with:
+
+> **“Who are you becoming?”**
+
+Example:
+
+### Identity
+
+“I want to become disciplined, healthy, confident, intelligent, independent, and calm.”
+
+↓
+
+### Goals
+
+* Improve fitness
+* Improve academic performance
+* Read regularly
+* Sleep consistently
+* Build confidence
+
+↓
+
+### Habits
+
+* Workout 4× per week
+* Study 2 hours per day
+* Read 10 pages
+* Sleep before 11:30
+* Journal 5 minutes
+
+↓
+
+### Daily actions
+
+* Workout today
+* Study from 4–6 PM
+* Read before bed
+* Start wind-down at 10:30
+
+---
+
+# 7. Product Architecture
+
+The core product consists of eight major areas:
+
+1. **Home**
+2. **Become**
+3. **Goals**
+4. **Routine**
+5. **Grow**
+6. **Live**
+7. **Journal**
+8. **Profile**
+
+---
+
+# 8. User Journey
+
+## Step 1 — Landing Page
+
+User arrives at HER.
+
+Hero:
+
+> # Become Her.
+>
+> Build discipline.
+> Build consistency.
+> Build a life you actually love.
+
+CTA:
+
+**Start Becoming Her**
+
+Secondary CTA:
+
+**See How It Works**
+
+---
+
+## Step 2 — Onboarding
+
+Ask the user:
+
+### Question 1
+
+**Who do you want to become?**
+
+Selectable traits:
+
+* Disciplined
+* Confident
+* Healthy
+* Intelligent
+* Calm
+* Independent
+* Organized
+* Creative
+* Social
+* Ambitious
+* Financially responsible
+* Consistent
+
+Allow custom traits.
+
+---
+
+### Question 2
+
+**What areas of your life matter most right now?**
+
+Categories:
+
+* 🎓 Education
+* 💼 Career
+* 💪 Fitness
+* 🥗 Health
+* 🧠 Mind
+* 💰 Money
+* ❤️ Relationships
+* 🎨 Hobbies
+* ✨ Confidence
+* 🌎 Experiences
+
+User selects 3–6.
+
+---
+
+### Question 3
+
+**What do you want to improve?**
+
+Examples:
+
+> Study consistently
+
+> Exercise regularly
+
+> Fix my sleep schedule
+
+> Read more
+
+> Spend less time on my phone
+
+> Become more confident
+
+---
+
+### Question 4
+
+**How much time can you realistically dedicate each day?**
+
+Options:
+
+* 15 minutes
+* 30 minutes
+* 1 hour
+* 2 hours
+* 3+ hours
+
+The system should use this to avoid creating unrealistic plans.
+
+---
+
+### Question 5
+
+**What does your typical day look like?**
+
+User provides:
+
+* Wake time
+* Sleep time
+* College/work hours
+* Free time
+* Preferred workout time
+* Preferred study time
+
+---
+
+## Step 3 — HER Blueprint
+
+The system generates:
+
+### “Your HER Blueprint”
+
+Example:
+
+> **You are becoming someone who is disciplined, healthy, confident, and academically strong.**
+
+Then:
+
+**Your priorities**
+
+1. Education
+2. Health
+3. Personal growth
+4. Social life
+
+**Your first goals**
+
+* Study consistently
+* Exercise 4× weekly
+* Sleep consistently
+* Read 10 pages daily
+
+CTA:
+
+**Start My First Day**
+
+---
+
+# 9. HOME — MY DAY
+
+The Home dashboard is the most frequently used page.
+
+## Header
+
+> **Good morning, [Name].**
+
+Date:
+
+> Friday · September 11
+
+Message:
+
+> *You don't need to have a perfect day. Just show up for it.*
+
+---
+
+## Today's Identity
+
+Display:
+
+> **Today, be the girl who keeps her promises.**
+
+---
+
+## Today's Top 3
+
+Users select three important actions.
+
+Example:
+
+### 01
+
+📚 Study for 2 hours
+
+### 02
+
+🏃 30-minute workout
+
+### 03
+
+📖 Read 10 pages
+
+---
+
+## Daily Checklist
+
+Categories:
+
+### Mind
+
+* Read
+* Journal
+* Meditation
+
+### Body
+
+* Workout
+* Walk
+* Water
+
+### Future
+
+* Study
+* Career work
+* Skill development
+
+### Self
+
+* Skincare
+* Room reset
+* Personal care
+
+---
+
+## Life Section
+
+Important distinction:
+
+### **Don't forget to live.**
+
+Examples:
+
+* Call a friend
+* Go outside
+* Try a café
+* Watch a sunset
+* Work on a hobby
+* Watch a movie
+* Spend time with family
+
+---
+
+# 10. BECOME — IDENTITY SYSTEM
+
+This is the philosophical core of the product.
+
+## Page headline
+
+> **Who are you becoming?**
+
+Display the user's selected identity traits.
+
+Example:
+
+### I am becoming:
+
+**Disciplined**
+**Healthy**
+**Confident**
+**Curious**
+**Independent**
+
+---
+
+## Identity Statements
+
+Users can create statements:
+
+> “I am someone who keeps promises to herself.”
+
+> “I take care of my body.”
+
+> “I finish what I start.”
+
+> “I make time for the people I love.”
+
+---
+
+## Identity → Behavior Mapping
+
+For every identity:
+
+### Disciplined
+
+Behaviors:
+
+* Complete planned work
+* Follow routines
+* Avoid unnecessary procrastination
+
+### Healthy
+
+Behaviors:
+
+* Exercise
+* Sleep consistently
+* Eat nourishing meals
+* Stay hydrated
+
+### Curious
+
+Behaviors:
+
+* Read
+* Learn
+* Explore new topics
+
+The system should suggest behaviors but allow users to customize them.
+
+---
+
+# 11. GOALS
+
+Goals are hierarchical.
+
+## Goal structure
+
+**Vision**
+
+↓
+
+**Long-term goal**
+
+↓
+
+**90-day goal**
+
+↓
+
+**Monthly target**
+
+↓
+
+**Weekly target**
+
+↓
+
+**Daily action**
+
+---
+
+## Example
+
+### Vision
+
+Become physically stronger.
+
+### 90-day goal
+
+Build a consistent workout routine.
+
+### Monthly target
+
+16 workouts.
+
+### Weekly target
+
+4 workouts.
+
+### Today's action
+
+30-minute workout.
+
+---
+
+## Goal properties
+
+Each goal should support:
+
+* Name
+* Description
+* Category
+* Start date
+* Target date
+* Priority
+* Progress
+* Milestones
+* Related habits
+* Related routines
+* Notes
+* Status
+
+Statuses:
+
+* Not started
+* Active
+* Paused
+* Completed
+* Archived
+
+---
+
+# 12. ROUTINE BUILDER
+
+Users create morning, afternoon, evening, and custom routines.
+
+## Morning Routine
+
+Example:
+
+06:30 Wake up
+
+06:35 Drink water
+
+06:45 Make bed
+
+07:00 Exercise
+
+07:40 Shower
+
+08:00 Skincare
+
+08:15 Breakfast
+
+---
+
+## Routine Features
+
+Users can:
+
+* Add task
+* Delete task
+* Reorder task
+* Drag and drop
+* Set duration
+* Set preferred time
+* Repeat on specific days
+* Skip task
+* Mark complete
+
+---
+
+## Smart routine behavior
+
+The system should recognize unrealistic routines.
+
+Example:
+
+User creates:
+
+06:00 wake
+
+06:05 meditation
+
+06:15 workout
+
+06:45 shower
+
+07:00 breakfast
+
+07:15 reading
+
+07:30 study
+
+08:00 commute
+
+If the schedule is impossible, the system should suggest adjustments.
+
+---
+
+# 13. HABITS & CONSISTENCY
+
+This is different from ordinary streak tracking.
+
+## Habit properties
+
+Each habit has:
+
+* Name
+* Category
+* Frequency
+* Target
+* Preferred time
+* Difficulty
+* Current consistency
+* Historical consistency
+
+---
+
+## Consistency Score
+
+Instead of focusing primarily on streaks:
+
+> **You completed this habit 24 out of 30 days.**
+
+**Consistency: 80%**
+
+---
+
+## Grace system
+
+Missing one day should not destroy progress.
+
+Example:
+
+> You missed yesterday.
+
+Instead of:
+
+> “Your streak is broken!”
+
+Display:
+
+> **One day doesn't define your progress. Today is another chance to show up.**
+
+---
+
+# 14. GROW — PROGRESS DASHBOARD
+
+The Grow page shows long-term progress.
+
+## Overview
+
+### Your consistency
+
+**82%**
+
+### Goals completed
+
+**12**
+
+### Habits maintained
+
+**7**
+
+### Days showed up
+
+**74 / 90**
+
+---
+
+## Category progress
+
+| Area      | Consistency |
+| --------- | ----------: |
+| Education |         84% |
+| Health    |         76% |
+| Fitness   |         81% |
+| Reading   |         68% |
+| Self-care |         91% |
+| Social    |         73% |
+
+---
+
+## 30-Day Calendar
+
+Each day displays:
+
+* Completed
+* Partial
+* Rest
+* Missed
+
+Avoid aggressive red failure indicators.
+
+The visual language should communicate progress rather than shame.
+
+---
+
+# 15. PERSONAL GROWTH TIMELINE
+
+Display:
+
+### 30 DAYS AGO
+
+> “I'm trying to become more disciplined.”
+
+### TODAY
+
+> “I'm studying consistently and exercising four times a week.”
+
+### NEXT
+
+> “Build confidence and improve my sleep.”
+
+This creates a visible narrative of transformation.
+
+---
+
+# 16. LIVE — LIFE EXPERIENCE SYSTEM
+
+This is a major differentiator.
+
+The platform must actively encourage users to **live**, not only optimize.
+
+## Categories
+
+### Explore
+
+* Visit a new place
+* Try a new café
+* Take a day trip
+
+### Social
+
+* Call a friend
+* Dinner with friends
+* Family time
+
+### Creative
+
+* Photography
+* Drawing
+* Music
+* Writing
+
+### Fun
+
+* Movie
+* Gaming
+* Shopping
+* Concert
+
+### Personal
+
+* Solo date
+* Read for fun
+* Watch sunset
+* Spend time offline
+
+---
+
+## Monthly Life Goals
+
+Example:
+
+### This month I want to:
+
+☐ Try 3 new cafés
+☐ Read one novel
+☐ Visit one new place
+☐ Have dinner with friends
+☐ Try a new hobby
+
+---
+
+# 17. BALANCE SYSTEM
+
+The user should see whether their life is becoming overly focused on one area.
+
+Example:
+
+### Your Life Balance
+
+**Growth** ████████░░
+
+**Health** ███████░░░
+
+**Work/Study** █████████░
+
+**Relationships** ██████░░░░
+
+**Fun** █████░░░░░
+
+If work/study becomes extremely high while everything else becomes neglected, HER can suggest:
+
+> **You've been focusing heavily on work this week. Consider making space for rest or something you enjoy.**
+
+The system should not diagnose the user or make mental-health claims.
+
+---
+
+# 18. JOURNAL
+
+The Journal is a private reflection system.
+
+## Daily reflection
+
+### How did today feel?
+
+😊 Great
+🙂 Good
+😐 Okay
+😔 Difficult
+😵💫 Chaotic
+
+### Questions
+
+**What did I do well today?**
+
+**What challenged me?**
+
+**What am I proud of?**
+
+**What do I want tomorrow to feel like?**
+
+**What am I grateful for?**
+
+---
+
+## Weekly Reflection
+
+Every week:
+
+### This week
+
+**You completed:** 82%
+
+**Biggest win:**
+
+> Finished my project.
+
+**Biggest challenge:**
+
+> Sleep schedule.
+
+**What worked:**
+
+> Studying in the library.
+
+**What didn't:**
+
+> Trying to study late at night.
+
+**Next week's focus:**
+
+> Study earlier.
+
+---
+
+# 19. RESET MODE
+
+A dedicated feature for users who fall out of their routine.
+
+Button:
+
+# **RESET**
+
+When activated:
+
+> **You don't need to start your entire life over. You just need one good day.**
+
+Generate a simplified reset plan.
+
+### Tomorrow
+
+☐ Wake at a reasonable time
+☐ Shower
+☐ Clean your space
+☐ Drink water
+☐ Complete one important task
+☐ Go outside
+☐ Eat properly
+☐ Prepare for tomorrow
+☐ Sleep on time
+
+The reset should temporarily reduce the user's workload rather than adding more tasks.
+
+---
+
+# 20. DAILY PROMISE
+
+Every morning, user chooses one meaningful promise.
+
+Examples:
+
+> “I will study before scrolling.”
+
+> “I will move my body today.”
+
+> “I will finish the assignment I keep avoiding.”
+
+At night:
+
+### Did you keep your promise?
+
+**Yes**
+
+**Partially**
+
+**Not today**
+
+No punishment.
+
+The goal is strengthening self-trust.
+
+---
+
+# 21. AI PERSONALIZATION
+
+AI should be an optional assistant, not the entire product.
+
+## AI capabilities
+
+### Plan my day
+
+User:
+
+> “I have college from 9–3, an assignment due tomorrow, and want to workout.”
+
+AI generates:
+
+* Study block
+* Workout
+* Breaks
+* Meals
+* Personal time
+* Wind-down
+
+---
+
+### Adjust my routine
+
+User:
+
+> “I've been failing my morning routine.”
+
+AI:
+
+> Simplify the routine from 8 tasks to 4 essential tasks.
+
+---
+
+### Weekly analysis
+
+AI analyzes:
+
+* Completion
+* Consistency
+* Missed habits
+* Goal progress
+* Routine difficulty
+
+Then produces:
+
+> **Your week in review**
+
+with 3 insights and 3 recommendations.
+
+---
+
+### Goal breakdown
+
+User:
+
+> “I want to learn Python.”
+
+AI converts it into:
+
+90-day goal → monthly goals → weekly learning → daily sessions.
+
+---
+
+# 22. NOTIFICATION SYSTEM
+
+Notifications should be useful and limited.
+
+Examples:
+
+### Morning
+
+> Good morning. What's one thing you want to make sure happens today?
+
+### Habit
+
+> Your 30-minute walk is waiting for you.
+
+### Evening
+
+> Before the day ends: did you keep today's promise?
+
+### Weekly
+
+> Your weekly reflection is ready.
+
+Users can customize notification times and disable categories.
+
+---
+
+# 23. PROFILE
+
+Profile contains:
+
+### HER IDENTITY
+
+Traits
+
+Goals
+
+Values
+
+Identity statements
+
+---
+
+### MY LIFE
+
+Current goals
+
+Current habits
+
+Current routines
+
+---
+
+### MY PROGRESS
+
+Days shown up
+
+Goals completed
+
+Consistency
+
+Life experiences
+
+---
+
+### SETTINGS
+
+* Account
+* Notifications
+* Appearance
+* Privacy
+* Data export
+* Delete account
+
+---
+
+# 24. DESIGN SYSTEM
+
+## Visual direction
+
+The product should feel:
+
+* Feminine
+* Premium
+* Calm
+* Aspirational
+* Modern
+* Warm
+* Editorial
+* Minimal
+
+Avoid:
+
+* Excessive pink
+* Childish UI
+* Aggressive gamification
+* Corporate dashboards
+* Overly clinical wellness design
+
+---
+
+## Color palette
+
+Primary:
+
+* Warm Ivory
+* Cream
+* Soft Sage
+* Matcha Green
+* Dusty Rose
+* Soft Peach
+
+Supporting:
+
+* Charcoal
+* Warm Gray
+* White
+
+Use color sparingly.
+
+---
+
+## Typography
+
+### Headings
+
+Elegant serif.
+
+### Body
+
+Modern sans-serif.
+
+The combination should create:
+
+**Editorial magazine × modern productivity app × wellness platform**
+
+---
+
+# 25. CORE UI COMPONENTS
+
+Reusable components:
+
+* Habit card
+* Goal card
+* Progress ring
+* Daily timeline
+* Calendar
+* Checklist
+* Routine timeline
+* Reflection card
+* Identity card
+* Life experience card
+* Progress chart
+* AI recommendation card
+* Weekly review card
+* Empty state
+* Streak/consistency indicator
+
+---
+
+# 26. NAVIGATION
+
+Desktop:
+
+**HER logo**
+
+Home
+Become
+Goals
+Routine
+Grow
+Live
+Journal
+
+Right:
+
+Notifications
+Profile
+
+---
+
+Mobile:
+
+Bottom navigation:
+
+**Home · Goals · Grow · Live · Me**
+
+Secondary areas accessible from Home/Profile.
+
+---
+
+# 27. CORE USER FLOWS
+
+## Flow A — New user
+
+Landing page
+
+→ Create account
+
+→ Identity onboarding
+
+→ Life areas
+
+→ Goals
+
+→ Schedule
+
+→ HER Blueprint
+
+→ First day
+
+---
+
+## Flow B — Daily use
+
+Open app
+
+→ See today's identity
+
+→ View Top 3
+
+→ Complete habits
+
+→ Complete goal actions
+
+→ Complete one life activity
+
+→ Evening reflection
+
+→ Day completed
+
+---
+
+## Flow C — Weekly use
+
+Open Grow
+
+→ View weekly progress
+
+→ Review habits
+
+→ Review goals
+
+→ Complete reflection
+
+→ AI recommendations
+
+→ Adjust next week
+
+---
+
+## Flow D — Failed routine
+
+User misses several days
+
+→ App recognizes reduced activity
+
+→ Offers Reset
+
+→ Simplifies routine
+
+→ User chooses restart date
+
+→ Returns to normal system
+
+---
+
+# 28. GAMIFICATION
+
+Gamification should be subtle.
+
+Use:
+
+* Progress
+* Milestones
+* Consistency percentages
+* Personal records
+* Growth timeline
+* Completed experiences
+
+Avoid:
+
+* Leaderboards
+* Public comparison
+* Punishment
+* Aggressive streak mechanics
+* “Failure” language
+
+The competition should be:
+
+> **Me today vs. me before.**
+
+---
+
+# 29. PRIVACY
+
+Personal journal information is highly private.
+
+Requirements:
+
+* Secure authentication
+* Encrypted data transmission
+* Secure database access
+* Private journal entries
+* User-controlled data
+* Account deletion
+* Data export
+* Clear privacy policy
+* AI should only access data necessary for requested personalization
+
+Do not publicly expose:
+
+* Journal entries
+* Goals
+* Habits
+* Personal routines
+* Progress
+
+unless the user explicitly creates a shareable item.
+
+---
+
+# 30. MVP
+
+The first version should **not** build everything.
+
+## MVP features
+
+### Authentication
+
+* Sign up
+* Login
+* Logout
+* Password reset
+
+### Onboarding
+
+* Identity selection
+* Life areas
+* Goals
+* Schedule
+
+### Home
+
+* Today's tasks
+* Top 3
+* Habits
+* Daily promise
+
+### Goals
+
+* Create goal
+* Break goal into actions
+* Track progress
+
+### Habits
+
+* Create habit
+* Daily completion
+* Consistency tracking
+
+### Routine
+
+* Morning
+* Evening
+* Custom routines
+
+### Grow
+
+* Weekly consistency
+* Monthly progress
+* Calendar
+
+### Journal
+
+* Daily reflection
+* Weekly reflection
+
+### Live
+
+* Life activities
+* Personal experiences
+
+### Profile
+
+* Identity
+* Goals
+* Settings
+
+---
+
+# 31. V2 FEATURES
+
+After validating the MVP:
+
+### AI Coach
+
+* AI day planner
+* AI weekly review
+* AI goal breakdown
+* Routine optimization
+
+### Advanced analytics
+
+* Habit trends
+* Goal velocity
+* Life balance
+* Consistency trends
+
+### Smart recommendations
+
+* Detect overloaded days
+* Recommend rest
+* Suggest habit reduction
+* Recommend routine changes
+
+### Calendar integration
+
+* Google Calendar
+* Apple Calendar
+
+### Reminders
+
+* Smart notifications
+* Routine reminders
+
+---
+
+# 32. V3 FEATURES
+
+Potential advanced features:
+
+### Social
+
+Private friend circles
+
+Shared challenges
+
+Accountability partners
+
+---
+
+### Challenges
+
+Examples:
+
+**30 Days of Reading**
+
+**21 Days of Movement**
+
+**30 Days of Better Sleep**
+
+But challenges should remain optional.
+
+---
+
+### Life Discovery
+
+Personalized:
+
+* Activities
+* Books
+* Hobbies
+* Places
+* Experiences
+
+---
+
+### Mobile app
+
+Native iOS/Android experience.
+
+---
+
+# 33. SUCCESS METRICS
+
+## Activation
+
+Percentage of users who:
+
+* Complete onboarding
+* Create first goal
+* Create first habit
+* Complete first daily action
+
+---
+
+## Engagement
+
+Track:
+
+* Daily active users
+* Weekly active users
+* Daily check-ins
+* Habit completion
+* Journal usage
+* Goal updates
+
+---
+
+## Retention
+
+Important metrics:
+
+**Day 1 retention**
+
+**Day 7 retention**
+
+**Day 30 retention**
+
+---
+
+## Product success metric
+
+The strongest north-star metric should be:
+
+# **Weekly users who consistently show up**
+
+Example:
+
+Users who complete meaningful actions on at least 4 days per week.
+
+This aligns directly with the product philosophy.
+
+---
+
+# 34. QUALITY METRICS
+
+The product should measure whether users feel:
+
+* More organized
+* More consistent
+* More confident
+* More aware of their goals
+* Less overwhelmed
+* More balanced
+
+Possible onboarding/30-day survey:
+
+> “I feel more in control of my daily life.”
+
+Score 1–5.
+
+---
+
+# 35. EDGE CASES
+
+## User creates too many habits
+
+System:
+
+> You have 14 habits active. Start with 3–5 that matter most.
+
+---
+
+## User misses a day
+
+No streak reset.
+
+Show:
+
+> **Keep going. One missed day doesn't erase your progress.**
+
+---
+
+## User repeatedly misses a goal
+
+Suggest:
+
+> Is this goal too large?
+
+Options:
+
+* Make it smaller
+* Change frequency
+* Pause
+* Replace
+
+---
+
+## User has no motivation
+
+Offer:
+
+### “Just 5 minutes.”
+
+Convert task into the smallest possible starting action.
+
+---
+
+## User has an overloaded schedule
+
+Automatically identify conflicts and recommend simplification.
+
+---
+
+# 36. ACCESSIBILITY
+
+Requirements:
+
+* WCAG-conscious contrast
+* Keyboard navigation
+* Screen-reader labels
+* Focus states
+* Accessible form controls
+* Reduced-motion option
+* Do not rely exclusively on color
+* Responsive typography
+* Touch targets suitable for mobile
+
+---
+
+# 37. RESPONSIVE DESIGN
+
+Desktop:
+
+Large dashboard with multi-column layout.
+
+Tablet:
+
+Two-column layout.
+
+Mobile:
+
+Single-column cards.
+
+Bottom navigation.
+
+Important actions must remain thumb-friendly.
+
+---
+
+# 38. EMPTY STATES
+
+Empty states should feel motivating.
+
+### No goals
+
+> **You haven't decided what you're becoming yet.**
+
+CTA:
+
+**Create your first goal**
+
+---
+
+### No habits
+
+> **Consistency starts with one small promise.**
+
+CTA:
+
+**Create a habit**
+
+---
+
+### No journal
+
+> **Your story starts with today.**
+
+CTA:
+
+**Write your first entry**
+
+---
+
+# 39. BRAND VOICE
+
+The product should communicate:
+
+**Warm + encouraging + honest + sophisticated**
+
+Never:
+
+> “YOU FAILED!”
+
+Instead:
+
+> “Today didn't go as planned. Tomorrow still exists.”
+
+Never:
+
+> “Don't be lazy.”
+
+Instead:
+
+> “Make the next step smaller.”
+
+Never:
+
+> “You must be productive.”
+
+Instead:
+
+> “Choose what matters today.”
+
+---
+
+# 40. DIFFERENTIATION
+
+HER differentiates itself from:
+
+### Habit trackers
+
+They ask:
+
+> Did you do it?
+
+HER asks:
+
+> **Why are you doing it, who are you becoming, and are your habits actually helping?**
+
+---
+
+### Productivity apps
+
+They focus on:
+
+> Tasks
+
+HER focuses on:
+
+> **Identity + goals + habits + life**
+
+---
+
+### Journaling apps
+
+They focus on:
+
+> Reflection
+
+HER connects reflection to:
+
+> **Behavior and future action**
+
+---
+
+### Wellness apps
+
+They focus on:
+
+> Health
+
+HER includes:
+
+> **Health + education + career + relationships + fun + personal growth**
+
+---
+
+# 41. THE CORE LOOP
+
+The entire product should revolve around this:
+
+```text
+              WHO AM I BECOMING?
+                       ↓
+                 WHAT MATTERS?
+                       ↓
+                   MY GOALS
+                       ↓
+                  MY ROUTINE
+                       ↓
+                 TODAY'S ACTION
+                       ↓
+                 SHOW UP
+                       ↓
+                  REFLECTION
+                       ↓
+                   PROGRESS
+                       ↓
+                 ADJUST & GROW
+                       ↓
+              WHO I'M BECOMING
+```
+
+Then repeat.
+
+---
+
+# 42. THE EMOTIONAL LOOP
+
+The user should experience:
+
+**Inspiration**
+
+↓
+“I want to become her.”
+
+**Clarity**
+
+↓
+“I know what I need to do.”
+
+**Action**
+
+↓
+“I did it.”
+
+**Self-trust**
+
+↓
+“I can rely on myself.”
+
+**Progress**
+
+↓
+“I'm actually changing.”
+
+**Identity**
+
+↓
+“This is becoming who I am.”
+
+That final transition is the product's deepest value.
+
+---
+
+# 43. SAMPLE DAY
+
+### 7:00 AM
+
+User opens HER.
+
+> **Good morning.**
+
+> Today, be someone who keeps her promises.
+
+### 7:05
+
+Daily promise:
+
+> Study before social media.
+
+### 8:00
+
+Morning routine completed.
+
+### 9:00
+
+College.
+
+### 1:00
+
+Lunch.
+
+### 4:00
+
+HER reminds user:
+
+> **Your most important goal today is waiting.**
+
+User studies.
+
+### 6:00
+
+Workout.
+
+### 7:00
+
+HER suggests:
+
+> **You've worked hard today. Make room for something you enjoy.**
+
+User meets friends.
+
+### 10:00
+
+Evening reflection.
+
+> What are you proud of?
+
+> “I actually studied even though I didn't feel like it.”
+
+### 10:30
+
+Day completed.
+
+HER displays:
+
+> **You kept your promise today.**
+
+That is the emotional payoff.
+
+---
+
+# 44. CORE PRODUCT PHILOSOPHY
+
+HER should never communicate:
+
+> “You need to become perfect.”
+
+Instead:
+
+> **“Become someone you can trust.”**
+
+Because discipline isn't about waking up at 5 AM.
+
+It is:
+
+* Doing what you said you'd do
+* Returning after you fail
+* Making small promises
+* Keeping them repeatedly
+* Taking care of yourself
+* Working toward something meaningful
+* Still enjoying your life
+
+---
+
+# 45. FINAL PRODUCT POSITIONING
+
+## HER
+
+### **Become her.**
+
+A personal growth platform for people who want to build discipline, consistency, confidence, and a life they genuinely enjoy.
+
+### Core promise:
+
+> **Turn the person you imagine becoming into the person you practice being every day.**
+
+### Brand statement:
+
+> **You don't need a completely new life.**
+>
+> **You need small things you can consistently return to.**
+>
+> **One habit.**
+>
+> **One promise.**
+>
+> **One ordinary day at a time.**
+
+---
+
+# 46. MVP PRIORITY MATRIX
+
+| Feature              | Priority | MVP   |
+| -------------------- | -------- | ----- |
+| Authentication       | P0       | Yes   |
+| Onboarding           | P0       | Yes   |
+| Identity system      | P0       | Yes   |
+| Daily dashboard      | P0       | Yes   |
+| Goals                | P0       | Yes   |
+| Habits               | P0       | Yes   |
+| Routine builder      | P0       | Yes   |
+| Consistency tracking | P0       | Yes   |
+| Daily promise        | P0       | Yes   |
+| Journal              | P0       | Yes   |
+| Weekly reflection    | P1       | Yes   |
+| Live/experiences     | P1       | Yes   |
+| Progress dashboard   | P0       | Yes   |
+| Reset mode           | P1       | Yes   |
+| AI coach             | P1       | Later |
+| Calendar integration | P2       | Later |
+| Social features      | P2       | Later |
+| Mobile app           | P2       | Later |
+| Challenges           | P2       | Later |
+
+---
+
+# 47. MVP DEFINITION OF DONE
+
+The MVP is ready when a new user can:
+
+1. Create an account
+2. Define who they want to become
+3. Select life priorities
+4. Create goals
+5. Convert goals into habits
+6. Build a routine
+7. See their daily plan
+8. Complete daily actions
+9. Track consistency
+10. Make a daily promise
+11. Reflect at the end of the day
+12. Review weekly progress
+13. Add enjoyable life experiences
+14. Reset their routine after falling behind
+15. Understand how their daily actions connect to their long-term identity
+
+---
+
+# 48. THE ONE-SENTENCE PRODUCT DEFINITION
+
+> **HER is a personal life operating system that turns the person you want to become into the small actions you can consistently practice today.**
+
+**Build for identity.
+Design for consistency.
+Leave room for life.**
